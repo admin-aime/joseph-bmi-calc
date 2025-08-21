@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+  :root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #f4f6f7;
+    --text-color: #2c3e50;
+    --border-radius: 12px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+
+  .bmi-calculator {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 450px;
+    transition: all 0.3s ease;
+  }
+
+  .bmi-calculator:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+
+  .input-group {
+    margin-bottom: 1rem;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .input-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }
+
+  .calculate-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .calculate-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+
+  .result {
+    margin-top: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  .bmi-value {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+
+  .bmi-category {
+    margin-top: 0.5rem;
+    font-weight: 600;
+  }
+
+  .category-underweight { color: #3498db; }
+  .category-normal { color: #2ecc71; }
+  .category-overweight { color: #f39c12; }
+  .category-obese { color: #e74c3c; }
+
+  @media (max-width: 480px) {
+    .bmi-calculator {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  }

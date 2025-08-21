@@ -1,0 +1,78 @@
+# Project Rules
+
+This project uses AIME for development assistance with automatic state tracking.
+
+## Current Plan and TODOs
+
+### Plan
+## Plan for BMI Calculator UI/UX Enhancement
+
+  ### Approach:
+  Create a modern, clean, and intuitive design for the BMI Calculator with:
+  - Responsive layout
+  - Attractive color scheme
+  - Clear input fields
+  - Informative result display
+  - Smooth animations and interactions
+
+  ### TODOs:
+  [ ] Update CSS with a modern design
+  [ ] Add responsive design
+  [ ] Implement smooth input interactions
+  [ ] Create visually appealing result display
+  [ ] Add color-coded BMI category indicators
+  [ ] Implement subtle animations
+
+### TODOs
+[ ] Update CSS with a modern design
+[ ] Add responsive design
+[ ] Implement smooth input interactions
+[ ] Create visually appealing result display
+[ ] Add color-coded BMI category indicators
+[ ] Implement subtle animations
+
+# Lessons Learned
+
+## User Specified Lessons
+(No lessons documented yet)
+
+## AIME Learned  
+(No lessons documented yet)
+
+# Scratchpad
+
+## Cloned Project Analysis
+
+### Project Structure
+- **Total Files**: 18
+- **JavaScript/TypeScript**: 7 files
+- **HTML**: 1 files  
+- **CSS/Styling**: 2 files
+- **Config Files**: 3 files
+- **Documentation**: 0 files
+
+### Key Files Detected
+📦 package.json - Project dependencies and scripts
+🌐 1 HTML file(s) - Web pages
+
+### Project Type
+React Application
+
+### Current Task
+Repository cloned and analyzed - ready for AI assistance with development tasks
+
+## Progress
+[X] Repository cloned successfully
+[X] Project structure analyzed
+[X] AIME project initialized
+[ ] Ready for development assistance
+
+## Notes
+- All project files are loaded and available for AI analysis
+- Project structure has been categorized for better context
+- Development environment setup based on detected configuration
+
+## Next Steps
+- AI can now assist with understanding, modifying, or extending this project
+- All files are available in the workspace for immediate editing
+- Development server will auto-start if package.json is detected
